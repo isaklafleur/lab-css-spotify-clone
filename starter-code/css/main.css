@@ -1,161 +1,143 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
 body {
-    width: 100%;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-
+  width: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
 }
 
-.logo-and-nav {
-    height: 70px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  background-color: #fff;
+  height: 90px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
 }
 
-.logo img {
-    width: 150px;
-    padding-right: 10px;
+nav img {
+  height: 60px;
+  margin-left: 20px;
+  padding: 15px;
+  width: 200px;
 }
 
-.navbar {
-    padding-right: 20px;
-    word-spacing: 20px;
+nav ul {
+  float: right;
+  padding-right: 20px;
 }
 
-
-.navbar a:link {
-    text-decoration: none;
-    color: silver;
+nav ul li {
+  display: inline;
+  font-size: 20px;
+  line-height: 90px;
+  padding: 0 18px;
 }
 
-.navbar a:visited {
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-
-
-.backgroundimage {
-    background-image: url("../images/landing.jpg");
-    background-size: contain;
-    height: 350px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+nav ul li a {
+  color: #111;
+  text-decoration: none;
 }
 
 .headline-subheadline {
-    color: white;
-    margin: 0 auto;
-    vertical-align: middle;
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 120px;
+  height: 700px;
+  color: #fff;
+  text-align: center;
 }
 
 .headline-subheadline h1 {
-    font-style: bold;
-    font-size: 2em;
+  font-size: 75px;
+  font-weight: bold;
+  padding-top: 185px;
 }
 
-.information {
-    height: 350px;
-    padding: 10px;
-    width: 70%;
-    margin: auto;
-    text-align: center;
+.headline-subheadline h2 {
+  font-size: 28px;
+  padding-top: 20px;
 }
 
 .on-spotify {
+  margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.on-spotify h3 {
+  border-bottom: 5px solid #1ea758;
   display: inline-block;
-  width: 230px;
-  border-bottom: 5px solid mediumseagreen;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.icon img {
+  height: 95px;
+  width: 110px;
+}
+
+.icon {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 95px;
+  width: 33%;
 }
 
 .three-sections {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+  background-color: #fff;
+  height: 450px;
+  margin: auto;
+  text-align: center;
 }
 
-.three-sections img {
-    width: 70px;
+.green {
+  background-color: #1ea758;
+  color: #fff;
+  height: 650px;
+  margin: 50px;
+  padding: 60px 90px;
+  position: relative;
 }
 
-.three-sections p {
-    padding: 10px;
+.text {
+  float: left;
+  padding-right: 10%;
+  width: 52%;
 }
 
-.three-sections strong {
-    color: mediumseagreen;
+.text h3 {
+  border-bottom: 4px solid #fff;
+  display: inline-block;
+  line-height: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-.three-sections img {
-    padding: 10px;
+.text h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
 }
 
-.links {
-    padding: 30px 15px 15px 15px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 15%;
-    margin-right: 15%;
-    justify-content: space-between;
-    color: white;
-    background-color: mediumseagreen;
+.text p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 200px;
 }
 
-.links .left-side {
-    width: 40%;
-    margin-left: 5px;
+.app {
+  float: right;
+  padding-top: 20px;
+  width: 350px;
 }
 
-.links .middle {
-    width: 20%;
-    padding: 20px;
+.logo {
+  position: absolute;
+  height: 120px;
+  left: 44%;
+  top: 45%;
+  width: 120px;
 }
-
-.links .middle img {
-    width: 100px;
-}
-
-.links .right-side {
-    width: 40%;
-    position:relative;
-    display:inline-block;
-    overflow:hidden;
-    margin-right: 5px;
-}
-
-.links .right-side img {
-    width: 100%;
-    min-width: 50px;
-    padding: 10px;
-}
-
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-
-.links .left-side h1 {
-      display: inline-block;
-      border-bottom: 5px solid white;
-}
-
-
