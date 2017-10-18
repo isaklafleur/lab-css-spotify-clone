@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   width: 100%;
   margin: auto;
@@ -15,7 +24,7 @@ nav {
 }
 
 nav img {
-  height: 60px;
+  height: 80px;
   margin-left: 20px;
   padding: 15px;
   width: 200px;
@@ -92,10 +101,10 @@ nav ul li a {
   text-align: center;
 }
 
-.green {
+.features {
+  overflow: hidden;
   background-color: #1ea758;
   color: #fff;
-  height: 650px;
   margin: 50px;
   padding: 60px 90px;
   position: relative;
@@ -103,8 +112,7 @@ nav ul li a {
 
 .text {
   float: left;
-  padding-right: 10%;
-  width: 52%;
+  width: 40%;
 }
 
 .text h3 {
@@ -125,10 +133,10 @@ nav ul li a {
 .text p {
   font-size: 20px;
   line-height: 30px;
-  padding-right: 200px;
+  padding-right: 40%;
 }
 
-.app {
+.mobile-app {
   float: right;
   padding-top: 20px;
   width: 350px;
