@@ -16,33 +16,31 @@ body {
 nav {
   background-color: #fff;
   height: 90px;
-  left: 0;
   position: fixed;
-  top: 0;
   width: 100%;
   z-index: 99999;
 }
 
-nav img {
+nav > img {
   height: 80px;
   margin-left: 20px;
   padding: 15px;
   width: 200px;
 }
 
-nav ul {
+nav > ul {
   float: right;
   padding-right: 20px;
 }
 
-nav ul li {
+nav > ul > li {
   display: inline;
   font-size: 20px;
   line-height: 90px;
   padding: 0 18px;
 }
 
-nav ul li a {
+nav > ul > li > a {
   color: #111;
   text-decoration: none;
 }
@@ -57,13 +55,13 @@ nav ul li a {
   text-align: center;
 }
 
-.headline-subheadline h1 {
+.headline-subheadline > h1 {
   font-size: 75px;
   font-weight: bold;
   padding-top: 185px;
 }
 
-.headline-subheadline h2 {
+.headline-subheadline > h2 {
   font-size: 28px;
   padding-top: 20px;
 }
@@ -71,10 +69,9 @@ nav ul li a {
 .on-spotify {
   margin-bottom: 50px;
   padding-top: 20px;
-  text-align: center;
 }
 
-.on-spotify h3 {
+.on-spotify > h3 {
   border-bottom: 5px solid #1ea758;
   display: inline-block;
   font-size: 35px;
@@ -82,22 +79,20 @@ nav ul li a {
   line-height: 60px;
 }
 
-.icon img {
-  height: 95px;
-  width: 110px;
-}
-
 .icon {
-  box-sizing: border-box;
   float: left;
   padding: 0 95px;
   width: 33%;
 }
 
+.icon > img {
+  height: 95px;
+  width: 110px;
+}
+
 .three-sections {
   background-color: #fff;
   height: 450px;
-  margin: auto;
   text-align: center;
 }
 
@@ -115,36 +110,32 @@ nav ul li a {
   width: 40%;
 }
 
-.text h3 {
+.text > h3 {
   border-bottom: 4px solid #fff;
   display: inline-block;
   line-height: 60px;
   font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 30px;
 }
 
-.text h4 {
+.text > h4 {
   font-size: 30px;
-  font-weight: bold;
   margin: 30px 0;
 }
 
-.text p {
+.text > p {
   font-size: 20px;
   line-height: 30px;
-  padding-right: 40%;
+  padding-right: 20%;
 }
 
 .mobile-app {
   float: right;
-  padding-top: 20px;
+  padding-top: 50px;
   width: 350px;
 }
 
 .logo {
   position: absolute;
-  height: 120px;
   left: 44%;
   top: 45%;
   width: 120px;
